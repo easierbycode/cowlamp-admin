@@ -8,6 +8,7 @@ gem 'rails', '3.2.13'
 gem 'pg'
 gem 'activeadmin'
 gem 'unicorn'
+gem 'haml-rails'
 
 
 # Gems used only for assets and not required
