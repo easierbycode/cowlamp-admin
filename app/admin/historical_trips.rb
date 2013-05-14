@@ -1,8 +1,19 @@
 ActiveAdmin.register HistoricalTrip do
 
+  member_action :show_map do
+    @trip = HistoricalTrip.find(params[:id])
+    @start_at = @trip[:start_at] * 1000
+    @end_at = @trip[:end_at] * 1000
+    @device_id = @trip[:device_id]
+  end
+
   zone = 'America/Phoenix'
 
   index do
+    column :map do |trip|
+      link_to 'Show', "#{admin_historical_trip_path(trip)}/show_map"
+    end
+
     column :device_id
     
     column :start_at do |trip|
