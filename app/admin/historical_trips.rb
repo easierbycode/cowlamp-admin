@@ -37,7 +37,11 @@ ActiveAdmin.register HistoricalTrip do
     column :ending_mileage do |trip|
       trip.ending_mileage.round(2)
     end
-    
+
+    column 'Enter Geo', :num_enter_geo_zone
+
+    column 'Exit Geo', :num_exit_geo_zone
+
     column :highest_speed do |trip|
       trip.highest_speed.round(0)
     end

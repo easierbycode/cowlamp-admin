@@ -1,4 +1,5 @@
 GatewayAa::Application.routes.draw do
+  resources :historical_trips, :only => [:create]
   devise_for :admin_users, ActiveAdmin::Devise.config
   root :to => 'admin/dashboard#index'
   ActiveAdmin.routes(self)
