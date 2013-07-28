@@ -9,6 +9,7 @@ gem 'pg'
 gem 'activeadmin'
 gem 'unicorn'
 gem 'haml-rails'
+gem 'country-select'
 
 
 # Gems used only for assets and not required
