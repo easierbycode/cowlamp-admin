@@ -2,56 +2,77 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b77ffc2-8979-466e-bcb9-b90486ee856b" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/models/geofence_violations.rb" afterPath="$PROJECT_DIR$/app/models/geofence_violation.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/admin/alert.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/alert.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/alerts_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gateway_aa.iml" afterPath="$PROJECT_DIR$/.idea/gateway_aa.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="gateway_aa.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/" />
     <file path="/database.yml" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1374625682220" ignored="false" />
-    <file path="/Gemfile" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1374961839935" ignored="false" />
+    <file path="/Gemfile" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1375094994095" ignored="false" />
     <file path="/a.dummy" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1374963077629" ignored="false" />
     <file path="/active_admin.rb" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1368406370415" ignored="false" />
     <file path="/.gitignore" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1368407608106" ignored="false" />
-    <file path="/historical_trip.rb" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1374625784875" ignored="false" />
+    <file path="/historical_trip.rb" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1375240220233" ignored="false" />
     <file path="/historical_trips.rb" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1374636819621" ignored="false" />
-    <file path="/Dummy.txt" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1374974983274" ignored="false" />
-    <file path="/routes.rb" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1374974278447" ignored="false" />
-    <file path="/historical_trips_controller.rb" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1374635126893" ignored="false" />
+    <file path="/Dummy.txt" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1375240458118" ignored="false" />
+    <file path="/routes.rb" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1375243824811" ignored="false" />
+    <file path="/historical_trips_controller.rb" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1375086811167" ignored="false" />
     <file path="/application.rb" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1374633242294" ignored="false" />
     <file path="$PROJECT_DIR$/../zinlot/db/migrate/20130724031319_add_geo_zone_to_trips.rb" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1374635658525" ignored="false" />
     <file path="/20130724031319_add_geo_zone_to_trips.rb" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1374635658525" ignored="false" />
     <file path="/device.rb" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1374717570852" ignored="false" />
     <file path="$PROJECT_DIR$/../zinlot/app/controllers/devices_controller.rb" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1374718618700" ignored="false" />
     <file path="/devices_controller.rb" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1374718616666" ignored="false" />
-    <file path="$PROJECT_DIR$/../zinlot/config/routes.rb" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1374722357060" ignored="false" />
-    <file path="$PROJECT_DIR$/../zinlot/app/views/layouts/application.html.haml" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1374723046104" ignored="false" />
+    <file path="$PROJECT_DIR$/../zinlot/config/routes.rb" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1375093992445" ignored="false" />
+    <file path="$PROJECT_DIR$/../zinlot/app/views/layouts/application.html.haml" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1375062715431" ignored="false" />
     <file path="/application.html.haml" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1374722479720" ignored="false" />
     <file path="/vehicle.rb" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1374719404508" ignored="false" />
     <file path="$PROJECT_DIR$/../zinlot/app/controllers/live_location_controller.rb" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1374722099829" ignored="false" />
     <file path="/live_location_controller.rb" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1374722008320" ignored="false" />
-    <file path="$PROJECT_DIR$/../zinlot/Gemfile" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1374958174268" ignored="false" />
+    <file path="$PROJECT_DIR$/../zinlot/Gemfile" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1375094995490" ignored="false" />
     <file path="$PROJECT_DIR$/../zinlot/app/views/live_location/index.html.haml" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1374725318908" ignored="false" />
-    <file path="/index.html.haml" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1374724738765" ignored="false" />
+    <file path="/index.html.haml" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1375086598281" ignored="false" />
     <file path="/dealert_lot.rb" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1374961658452" ignored="false" />
     <file path="$PROJECT_DIR$/../demo.activeadmin.info/app/models/dealer_lot.rb" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1374961755095" ignored="false" />
     <file path="/dealer_lot.rb" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1374963147960" ignored="false" />
     <file path="/dealer_group.rb" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1374963196605" ignored="false" />
     <file path="/geofence_violations.rb" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1374974172076" ignored="false" />
-    <file path="/geofence_violations_controller.rb" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1374973680167" ignored="false" />
+    <file path="/geofence_violations_controller.rb" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1374979776264" ignored="false" />
     <file path="/production.rb" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1374974929799" ignored="false" />
+    <file path="/20130728032713_add_trip_number_to_trips.rb" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1374982056105" ignored="false" />
+    <file path="$PROJECT_DIR$/../zinlot/app/views/historical_trips/index.html.haml" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1375215204198" ignored="false" />
+    <file path="$PROJECT_DIR$/../zinlot/db/migrate/20130728041443_add_has_fence_violations_to_trips.rb" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1374984909842" ignored="false" />
+    <file path="/20130728041443_add_has_fence_violations_to_trips.rb" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1374984908950" ignored="false" />
+    <file path="$PROJECT_DIR$/../zinlot/db/schema.rb" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1374985428573" ignored="false" />
+    <file path="$PROJECT_DIR$/../zinlot/app/views/historical_trips/show.html.haml" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1375244235587" ignored="false" />
+    <file path="/show.html.haml" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1375061544198" ignored="false" />
+    <file path="$PROJECT_DIR$/../zinlot/app/assets/javascripts/application.js.coffee" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1375061105193" ignored="false" />
+    <file path="/application.js.coffee" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1375061104220" ignored="false" />
+    <file path="$PROJECT_DIR$/../zinlot/app/assets/stylesheets/application.css.scss" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1375215294726" ignored="false" />
+    <file path="/application.css.scss" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1375215250954" ignored="false" />
+    <file path="$PROJECT_DIR$/../zinlot/app/controllers/historical_trips_controller.rb" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1375215387516" ignored="false" />
+    <file path="$PROJECT_DIR$/../zinlot/app/models/historical_trip.rb" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1375215354071" ignored="false" />
+    <file path="$PROJECT_DIR$/../zinlot/app/controllers/dtc_codes_controller.rb" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1375107670142" ignored="false" />
+    <file path="/dtc_codes_controller.rb" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1375097035431" ignored="false" />
+    <file path="$PROJECT_DIR$/../zinlot/app/models/geofence.rb" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1375237542040" ignored="false" />
+    <file path="/geofence.rb" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1375237426144" ignored="false" />
+    <file path="$PROJECT_DIR$/../zinlot/app/models/geofence_violation.rb" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1375237803296" ignored="false" />
+    <file path="/geofence_violation.rb" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1375237789575" ignored="false" />
+    <file path="/alert.rb" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1375243793198" ignored="false" />
+    <file path="/alerts_controller.rb" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1375245780076" ignored="false" />
+    <file path="$PROJECT_DIR$/../zinlot/app/assets/javascripts/map_icon.js.coffee" changelist="8b77ffc2-8979-466e-bcb9-b90486ee856b" time="1375244075801" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="false" show_ignored="false" />
+  <component name="ChangesViewManager" flattened_view="false" show_ignored="true" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -64,55 +85,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="3" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/application.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="production.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="61" selection-start="1146" selection-end="1146" vertical-scroll-proportion="0.6586402">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="19" selection-start="885" selection-end="885" vertical-scroll-proportion="0.0">
+            <state line="22" column="45" selection-start="858" selection-end="858" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="geofence_violations_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/geofence_violations_controller.rb">
+      <file leaf-file-name="historical_trips_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/historical_trips_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="42" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0">
+            <state line="3" column="18" selection-start="0" selection-end="212" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="alerts_controller.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/alerts_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="22" selection-start="251" selection-end="251" vertical-scroll-proportion="0.3206651">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dealer_lot.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/admin/dealer_lot.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="39" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="alert.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/admin/alert.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="26" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="geofence_violation.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/admin/geofence_violation.rb">
+        <entry file="file://$PROJECT_DIR$/app/models/geofence_violation.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="38" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0">
+            <state line="3" column="3" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="historical_trip.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/historical_trip.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="104" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="alert.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/alert.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="11" selection-start="11" selection-end="11" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="schema.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/schema.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="330" column="46" selection-start="15446" selection-end="15446" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="geofence.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/geofence.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="23" selection-start="671" selection-end="671" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -136,30 +193,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/admin/vehicle.rb" />
-        <option value="$PROJECT_DIR$/app/models/car.rb" />
-        <option value="$PROJECT_DIR$/app/models/vehicle_usage.rb" />
-        <option value="$PROJECT_DIR$/app/models/device.rb" />
-        <option value="$PROJECT_DIR$/app/models/vehicle.rb" />
-        <option value="$PROJECT_DIR$/app/admin/dealert_lot.rb" />
-        <option value="$PROJECT_DIR$/app/admin/dealer_lot.rb" />
         <option value="$PROJECT_DIR$/app/models/dealer_group.rb" />
         <option value="$PROJECT_DIR$/app/models/dealer_lot.rb" />
         <option value="$PROJECT_DIR$/app/admin/dealer_group.rb" />
         <option value="$PROJECT_DIR$/app/models/geofence_violations.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/geofence_violations_controller.rb" />
         <option value="$PROJECT_DIR$/app/admin/geofence_violations.rb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
+        <option value="$PROJECT_DIR$/app/models/geofence_violation.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/geofence_violations_controller.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20130728032713_add_trip_number_to_trips.rb" />
+        <option value="$PROJECT_DIR$/app/models/geofence.rb" />
+        <option value="$PROJECT_DIR$/app/models/historical_trip.rb" />
+        <option value="$PROJECT_DIR$/app/models/alert.rb" />
+        <option value="$PROJECT_DIR$/app/admin/alert.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/alerts_controller.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="588" />
-    <option name="y" value="22" />
-    <option name="width" value="853" />
-    <option name="height" value="1042" />
+    <option name="x" value="311" />
+    <option name="y" value="245" />
+    <option name="width" value="1024" />
+    <option name="height" value="767" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -188,6 +245,7 @@
     </navigator>
     <panes>
       <pane id="RailsProjectView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -302,43 +360,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gateway_aa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cowlamp-admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="environments" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gateway_aa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cowlamp-admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -357,20 +379,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gateway_aa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cowlamp-admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -412,7 +420,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -715,19 +722,39 @@
       <created>1374974985379</created>
       <updated>1374974985379</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fix geofence_violation naming">
+      <created>1374975075928</created>
+      <updated>1374975075928</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update rails to 3.2.14">
+      <created>1374975147708</created>
+      <updated>1374975147708</updated>
+    </task>
+    <task id="LOCAL-00009" summary="fix geofence_violation">
+      <created>1374975320055</created>
+      <updated>1374975320055</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fix geofence_violation">
+      <created>1374980209599</created>
+      <updated>1374980209599</updated>
+    </task>
+    <task id="LOCAL-00011" summary="check geofence boundary violations before saving historical trip">
+      <created>1375240461418</created>
+      <updated>1375240461418</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="588" y="22" width="853" height="1042" extended-state="0" />
-    <editor active="false" />
+    <frame x="311" y="245" width="1024" height="767" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3257403" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18518518" sideWeight="0.4993804" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26119402" sideWeight="0.4993804" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3655514" sideWeight="0.8148148" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3149284" sideWeight="0.73880595" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18518518" sideWeight="0.5006196" order="7" side_tool="true" content_ui="tabs" />
@@ -784,7 +811,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="config.assets.initialize_on_precompile = false" />
+    <option name="LAST_COMMIT_MESSAGE" value="check geofence boundary violations before saving historical trip" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -804,119 +831,121 @@
     <MESSAGE value="add dealer_group and dealer_lot" />
     <MESSAGE value="add geofence_violations" />
     <MESSAGE value="config.assets.initialize_on_precompile = false" />
+    <MESSAGE value="fix geofence_violation naming" />
+    <MESSAGE value="update rails to 3.2.14" />
+    <MESSAGE value="fix geofence_violation" />
+    <MESSAGE value="check geofence boundary violations before saving historical trip" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/admin/device.rb">
+    <entry file="file://$USER_HOME$/Desktop/daniel/Downloads/fdgo/app/models/device_pulse_history.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="26" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/dealer_group.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="23" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/dealer_lot.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="34" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/dealer_group.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="4" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.ru">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="21" selection-start="153" selection-end="153" vertical-scroll-proportion="0.046875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/historical_trips_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="55" selection-start="0" selection-end="55" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/dealer_lot.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="3" selection-start="0" selection-end="39" vertical-scroll-proportion="0.04172462">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/geofence_violation.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="24" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/historical_trip.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="16" selection-start="0" selection-end="109" vertical-scroll-proportion="0.0606469">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/historical_trips.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="23" selection-start="137" selection-end="137" vertical-scroll-proportion="0.08498584">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/geofence_violation.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="38" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/geofence_violations_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="42" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="19" selection-start="885" selection-end="885" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="3" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
+    <entry file="file://$USER_HOME$/Desktop/daniel/Downloads/fdgo/app/models/speed_alert.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+    <entry file="file://$PROJECT_DIR$/../locatemyautos/app/models/alert.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="61" selection-start="1146" selection-end="1146" vertical-scroll-proportion="0.6586402">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/daniel/Downloads/fdgo/app/views/alerts/index.json.rabl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/daniel/Downloads/fdgo/app/views/dashboard/index.mobile.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="26" selection-start="638" selection-end="644" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/daniel/Dropbox/code-work/core/app/models/alert.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="64" selection-start="76" selection-end="76" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/geofence_violation.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="3" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="330" column="46" selection-start="15446" selection-end="15446" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/geofence.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="23" selection-start="671" selection-end="671" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/historical_trip.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="104" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/historical_trips_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="18" selection-start="0" selection-end="212" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/dealer_lot.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="39" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="45" selection-start="858" selection-end="858" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/alert.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="26" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/alert.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="11" selection-start="11" selection-end="11" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/alerts_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="22" selection-start="251" selection-end="251" vertical-scroll-proportion="0.3206651">
           <folding />
         </state>
       </provider>

@@ -1,6 +1,7 @@
 GatewayAa::Application.routes.draw do
   resources :historical_trips, :only => [:create]
   resources :geofence_violations, :only => [:create]
+  resources :alerts, :only => [:create]
   devise_for :admin_users, ActiveAdmin::Devise.config
   root :to => 'admin/dashboard#index'
   ActiveAdmin.routes(self)
