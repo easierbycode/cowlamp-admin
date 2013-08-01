@@ -3,7 +3,7 @@ class HistoricalTrip < ActiveRecord::Base
   attr_protected :created_at
 
   before_save :add_trip_number
-  before_save :check_geofence_violations
+  #before_save :check_geofence_violations
 
   def check_geofence_violations
     self.has_geofence_violations = boundary_violations?
