@@ -16,18 +16,21 @@ class HistoricalTrip < ActiveRecord::Base
   # check to see if
   # we exited any boundaries
   def boundary_violations?
-    if geofence_violations = GeofenceViolation.where({ trip_start_at:start_at })
+    violated_a_boundary = false
+
+    geofence_violations = GeofenceViolation.where({ trip_start_at:start_at })
+
+    if geofence_violations.count > 0
       geofence_ids = geofence_violations.pluck('geofence_id')
-      violated_a_boundary = false
 
       for geofence_id in geofences_ids
         if Geofence.is_boundary(geofence_id)
           violated_a_boundary = true
         end
       end
-
-      return violated_a_boundary
     end
+
+    return violated_a_boundary
   end
 
 end
