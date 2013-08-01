@@ -10,6 +10,7 @@ gem 'activeadmin'
 gem 'unicorn'
 gem 'haml-rails'
 gem 'country-select'
+gem 'twilio-ruby'
 
 
 # Gems used only for assets and not required
