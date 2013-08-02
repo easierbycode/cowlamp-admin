@@ -23,7 +23,7 @@ class Geofence
   def self.friendly_names
     return @friendly_names if @friendly_names
 
-    spreadsheet_url = 'https://script.googleusercontent.com/macros/echo?user_content_key=frVD3Ya4KJxnpQfbde6QTABl5goA-OvK3Onx9sxAwa8Fb8Lfg-ylzZACiNCKX0YChipj8_nahI9DppEJoYq48x0MmFW-X1jJm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnOzpDlJgm0n4rWBCKLKK76OwTNvBeNH5pHHfM10H582pPVIj0ngg9zxGM0VaeRCJu2Bel-zImZlo&lib=Mh0VmzieLjAbAoUBWSkDdXopdPpql0DA_'
+    spreadsheet_url = 'https://script.googleusercontent.com/macros/echo?user_content_key=zuCvHbw73t3JUpR0mQte2WrRbHVNXWKoGvtF6ih4v_CuMZ87kOi8F_LfBj-EPQWpJRVfIL0M0WJKo58cSiDDFP5pNBWQWUwem5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnOzpDlJgm0n4rWBCKLKK76OwTNvBeNH5pHHfM10H582pPVIj0ngg9zxGM0VaeRCJu2Bel-zImZlo&lib=Mh0VmzieLjAbAoUBWSkDdXopdPpql0DA_'
     @friendly_names = JSON.parse(open(spreadsheet_url, :ssl_verify_mode => OpenSSL::SSL::VERIFY_NONE).read)
     return @friendly_names
   end
