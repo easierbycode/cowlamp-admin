@@ -3,7 +3,7 @@ class HistoricalTrip < ActiveRecord::Base
   attr_protected :created_at
 
   before_save :add_trip_number
-  #before_save :check_geofence_violations
+  before_save :check_geofence_violations
 
   def check_geofence_violations
     self.has_geofence_violations = boundary_violations?
@@ -16,7 +16,7 @@ class HistoricalTrip < ActiveRecord::Base
   # check to see if
   # we exited any boundaries
   def boundary_violations?
-    violated_a_boundary = false
+    violated_a_boundary = 0
 
     geofence_violations = GeofenceViolation.where({ trip_start_at:start_at })
 
@@ -25,7 +25,7 @@ class HistoricalTrip < ActiveRecord::Base
 
       for geofence_id in geofences_ids
         if Geofence.is_boundary(geofence_id)
-          violated_a_boundary = true
+          violated_a_boundary = 1
         end
       end
     end

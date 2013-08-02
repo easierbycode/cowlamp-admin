@@ -341,6 +341,7 @@ ActiveRecord::Schema.define(:version => 20130728032713) do
     t.integer  "num_enter_geo_zone"
     t.integer  "num_exit_geo_zone"
     t.integer  "trip_number"
+    t.boolean  "has_geofence_violations"
   end
 
   create_table "users", :force => true do |t|
