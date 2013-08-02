@@ -23,7 +23,7 @@ class HistoricalTrip < ActiveRecord::Base
     if geofence_violations.count > 0
       geofence_ids = geofence_violations.pluck('geofence_id')
 
-      for geofence_id in geofences_ids
+      for geofence_id in geofence_ids
         if Geofence.is_boundary(geofence_id)
           violated_a_boundary = 1
         end
