@@ -15,7 +15,7 @@ class GeofenceViolation < ActiveRecord::Base
     @client.account.sms.messages.create(
         :from => '+14806488904',
         :to => '+16023413321',
-        :body => "EXIT Geofence: #{device_id} left geofence #{geofence_id}"
+        :body => "EXIT Geofence: #{device_id} left geofence #{Geofence.friendly_name(geofence_id)}"
     )
   end
 end
